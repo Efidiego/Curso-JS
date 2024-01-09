@@ -17,14 +17,15 @@ body{
     padding: 0;
     background: var(--primary-color);
     font-family: 'open sans', sans-serif;
-    font-size: 1.3em;
+    font-size: 1.0em;
     line-height: 1.5em;
+    padding: 2px;
 }
 
 .container{
     max-width: 640px;
     margin: 50px auto;
-    background: rgb(208, 240, 228);
+    background: rgb(224, 245, 237);
     padding: 20px;
     border-radius: 15px;
     
@@ -64,12 +65,11 @@ form button:hover {
     background: var(--primary-color-darker);
 }
 
-.paragrafo-resultado{
+.paragrafo-resultado, .bad {
     background: rgb(109, 255, 182);
     padding: 10px 20px ;
 }
 
-
-form button:active {
-    background: var(--primary-color-darker);
+.bad {
+    background: rgb(255, 150, 150)
 }
